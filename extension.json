@@ -1,0 +1,22 @@
+{
+  "id": "optimizely-events",
+  "name": "Optimizely Events",
+  "fieldTypes": ["Object"],
+  "srcdoc": "index.html",
+  "parameters": {
+    "instance": [
+      {
+        "id": "token",
+        "type": "Symbol",
+        "name": "Optimizely read-only token",
+        "default": "2:a2R4652waFFim_P8pGuugAWaGv6Jcu1eBbaNDT32bCq-Y6sqCvBk"
+      },
+      {
+        "id": "projectId",
+        "type": "Symbol",
+        "name": "Optimizely project ID",
+        "default": "13120730487"
+      }
+    ]
+  }
+}
